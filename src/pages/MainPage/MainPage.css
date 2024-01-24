@@ -1,0 +1,44 @@
+.Main {
+    text-align: center;
+
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Main-header {
+    min-height: 10vh;
+}
+
+.Main-content {
+    min-height: 80vh;
+}
+
+.Main-footer {
+    min-height: 10vh;
+}
+
+.Main-logo {
+    height: 5vh;
+}
+
+.Main-item-preview {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    border: solid black;
+    margin-bottom: 1vh;
+}
+
+.Main-item-preview-image {
+    height: 10vh;
+}
