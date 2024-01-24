@@ -62,7 +62,7 @@ yarn-error.log*
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
-# *.iml
+*.iml
 # *.ipr
 
 # CMake
@@ -109,3 +109,5 @@ fabric.properties
 
 !.idea/codeStyles
 !.idea/runConfigurations
+
+price-tracker-ui.iml
