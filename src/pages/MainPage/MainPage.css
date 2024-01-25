@@ -10,6 +10,11 @@
     padding: 1vh;
 }
 
+.item-preview:hover {
+    background-color: lightgray;
+    opacity: 0.9;
+}
+
 .item-preview-image {
     height: 10vh;
 }
