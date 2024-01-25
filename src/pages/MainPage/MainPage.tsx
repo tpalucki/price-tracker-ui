@@ -18,7 +18,7 @@ const Content = () => {
                             <div>
                                 <label>{item.name}</label>
                             </div>
-                            <button>{item.price}</button>
+                            <button type="button" className="btn btn-primary">{item.price}</button>
                         </div>
                     ))}
                 </div>
