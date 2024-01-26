@@ -8,7 +8,7 @@ const items = Items;
 
 const Content = () => {
     return (
-        <div>
+        <div className="content">
             <section>
                 <h1>Products</h1>
                 <div>
