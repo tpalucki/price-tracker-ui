@@ -3,4 +3,6 @@ export interface ItemPreviewModel {
     price: number;
     image: string;
     url: string;
+    releaseYear: number;
+    numberOfElements: number;
 }

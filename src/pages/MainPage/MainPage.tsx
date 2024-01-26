@@ -15,8 +15,9 @@ const Content = () => {
                     {items.map((item, index) => (
                         <div key={index} className="item-preview">
                             <img src={item.image} alt={item.name} className="item-preview-image"/>
-                            <div>
-                                <label>{item.name}</label>
+                            <div className="d-flex flex-column">
+                                <div className="fs-3">{item.name}</div>
+                                <div>{`Rok ${item.releaseYear}, liczba elementów: ${item.numberOfElements}, cena/el: ${Math.fround(item.price / item.numberOfElements).toFixed(2)}zł`}</div>
                             </div>
                             <button type="button" className="btn btn-outline-primary">{item.price}</button>
                         </div>
