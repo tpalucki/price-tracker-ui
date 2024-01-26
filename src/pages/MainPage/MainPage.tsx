@@ -19,10 +19,32 @@ const Content = () => {
                                 <div className="fs-3">{item.name}</div>
                                 <div>{`Rok ${item.releaseYear}, liczba elementów: ${item.numberOfElements}, cena/el: ${Math.fround(item.price / item.numberOfElements).toFixed(2)}zł`}</div>
                             </div>
-                            <button type="button" className="btn btn-outline-primary btn-lg">{`od ${item.price} zł`}</button>
+                            <button type="button"
+                                    className="btn btn-outline-primary btn-lg">{`od ${item.price} zł`}</button>
                         </div>
                     ))}
                 </div>
+            </section>
+            <section>
+                <nav aria-label="Page navigation example">
+                    <ul className="pagination justify-content-center">
+                        <li className="page-item">
+                            <a className="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li className="page-item"><a className="page-link" href="#">1</a></li>
+                        <li className="page-item"><a className="page-link" href="#">2</a></li>
+                        <li className="page-item"><a className="page-link" href="#">3</a></li>
+                        <li className="page-item"><a className="page-link" href="#">4</a></li>
+                        <li className="page-item"><a className="page-link" href="#">5</a></li>
+                        <li className="page-item">
+                            <a className="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
         </div>
     )
